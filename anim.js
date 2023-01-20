@@ -7,7 +7,7 @@ let ojo2 = document.querySelector(".ojo2");
 document.onmousemove = (e)=> {
     let x = e.clientX * 150/ window.innerWidth + "%";
     let y = e.clientY * 150/ window.innerHeight + "%";
-
+    
     punto.style.left = x;
     punto.style.top = y;
 
