@@ -23,3 +23,25 @@ html{
     border-radius: 50%;
 
 }
+
+.ojo2{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    left: 50%;
+    top: 25%;
+}
+
+.punto2{
+    position:relative;
+    width: 40px;
+    height: 70px;
+    background-color: black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
